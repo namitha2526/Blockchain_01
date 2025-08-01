@@ -11,7 +11,7 @@ contract SupplyChain {
         address currentOwner;
         State state; 
         string[] history; 
-    }
+    } 
 
     uint public productCounter = 0;
     mapping(uint => Product) public products; 
