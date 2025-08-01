@@ -8,7 +8,7 @@ contract SupplyChain {
     struct Product {
         uint id; 
         string name;
-        address currentOwner;
+        address currentOwner; 
         State state; 
         string[] history;  
     } 
