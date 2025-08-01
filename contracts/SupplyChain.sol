@@ -21,7 +21,7 @@ contract SupplyChain {
         require(roles[msg.sender] == Role.Manufacturer, "Only manufacturers allowed");
         _;
     }
-
+ 
     modifier onlyRetailer() {
         require(roles[msg.sender] == Role.Retailer, "Only retailers allowed");
         _;
