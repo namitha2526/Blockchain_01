@@ -14,7 +14,7 @@ contract SupplyChain {
     }
 
     uint public productCounter = 0;
-    mapping(uint => Product) public products;
+    mapping(uint => Product) public products; 
     mapping(address => Role) public roles;
 
     modifier onlyManufacturer() {
