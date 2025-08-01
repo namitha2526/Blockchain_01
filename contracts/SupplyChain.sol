@@ -9,7 +9,7 @@ contract SupplyChain {
         uint id; 
         string name;
         address currentOwner;
-        State state;
+        State state; 
         string[] history;
     }
 
