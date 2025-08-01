@@ -10,7 +10,7 @@ contract SupplyChain {
         string name;
         address currentOwner;
         State state; 
-        string[] history;
+        string[] history; 
     }
 
     uint public productCounter = 0;
