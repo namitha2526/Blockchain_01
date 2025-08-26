@@ -1,7 +1,7 @@
 // File: contracts/SupplyChain.sol
 pragma solidity ^0.8.0;  
 
-contract SupplyChain {
+contract SupplyChain { 
     enum Role { None, Manufacturer, Retailer, Buyer }
     enum State { Created, AtRetailer, Sold } 
  
