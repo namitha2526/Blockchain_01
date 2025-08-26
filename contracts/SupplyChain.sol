@@ -1,5 +1,5 @@
 // File: contracts/SupplyChain.sol
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.0; 
 
 contract SupplyChain {
     enum Role { None, Manufacturer, Retailer, Buyer }
