@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract SupplyChain { 
     enum Role { None, Manufacturer, Retailer, Buyer }
-    enum State { Created, AtRetailer, Sold } 
+    enum State { Created, AtRetailer, Sold }  
   
     struct Product { 
         uint id; 
