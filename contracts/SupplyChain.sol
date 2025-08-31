@@ -45,7 +45,7 @@ contract SupplyChain {
         p.currentOwner = msg.sender;
         p.state = State.Created;
         p.history.push("Created by Manufacturer");
-    }
+    } 
 
     function transferToRetailer(uint id) external onlyManufacturer {
         Product storage p = products[id];
