@@ -5,7 +5,7 @@ contract SupplyChain {
     enum Role { None, Manufacturer, Retailer, Buyer }
     enum State { Created, AtRetailer, Sold }  
   
-    struct Product { 
+    struct Product {  
         uint id; 
         string name; 
         address currentOwner;  
