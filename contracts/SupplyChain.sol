@@ -13,7 +13,7 @@ contract SupplyChain {
         string[] history;     
     }  
 
-    uint public productCounter = 0;
+    uint public productCounter = 0; 
     mapping(uint => Product) public products; 
     mapping(address => Role) public roles;
 
